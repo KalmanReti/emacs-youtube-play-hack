@@ -10,4 +10,6 @@ a dash ('-') into the full video URL after the "t" in "youtube".  This site will
 video in a full-screen windows, but also causes it to loop.  So this option requires shutting
 down the browser after the video for a given movement has finished playing.  This embedded
 variant is invoked with c-U m-x play-raff3-vln-sonata and currently only works if you are
-1) on windows and 2) Microsoft Edge is your default browser.
+using an emacs on windows and have Microsoft Edge as your default browser.
+
+There is just one file, yt-hack.el; it has a bunch of comments explaining what's going on.
